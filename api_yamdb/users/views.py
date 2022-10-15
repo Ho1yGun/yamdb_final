@@ -11,7 +11,6 @@ from .models import User
 from .permissions import IsAdmin
 from .serializers import SignUpSerializer, TokenSerializer, UserSerializer
 
-
 token_generator = PasswordResetTokenGenerator()
 
 
